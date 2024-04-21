@@ -508,11 +508,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\harsh\\OneDrive\\Desktop\\CAVU\\ParkingManagement\\ParkingManagement.UseCases\\ParkingManagement.UseCases.csproj",
+      "projectUniqueName": "C:\\Users\\harsh\\OneDrive\\Desktop\\HarshaFinal\\ParkingManagement\\ParkingManagement.UseCases\\ParkingManagement.UseCases.csproj",
       "projectName": "ParkingManagement.UseCases",
-      "projectPath": "C:\\Users\\harsh\\OneDrive\\Desktop\\CAVU\\ParkingManagement\\ParkingManagement.UseCases\\ParkingManagement.UseCases.csproj",
+      "projectPath": "C:\\Users\\harsh\\OneDrive\\Desktop\\HarshaFinal\\ParkingManagement\\ParkingManagement.UseCases\\ParkingManagement.UseCases.csproj",
       "packagesPath": "C:\\Users\\harsh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\harsh\\OneDrive\\Desktop\\CAVU\\ParkingManagement\\ParkingManagement.UseCases\\obj\\",
+      "outputPath": "C:\\Users\\harsh\\OneDrive\\Desktop\\HarshaFinal\\ParkingManagement\\ParkingManagement.UseCases\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\harsh\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -527,8 +527,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\harsh\\OneDrive\\Desktop\\CAVU\\ParkingManagement\\ParkingManagement.Core\\ParkingManagement.Core.csproj": {
-              "projectPath": "C:\\Users\\harsh\\OneDrive\\Desktop\\CAVU\\ParkingManagement\\ParkingManagement.Core\\ParkingManagement.Core.csproj"
+            "C:\\Users\\harsh\\OneDrive\\Desktop\\HarshaFinal\\ParkingManagement\\ParkingManagement.Core\\ParkingManagement.Core.csproj": {
+              "projectPath": "C:\\Users\\harsh\\OneDrive\\Desktop\\HarshaFinal\\ParkingManagement\\ParkingManagement.Core\\ParkingManagement.Core.csproj"
             }
           }
         }

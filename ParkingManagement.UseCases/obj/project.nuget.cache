@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vX712OitPUx4NSP3C8fjVSrECetmZnO/D7bYLSGxrUCZn4zRE/0OIjWkGp98oc7hSKCCsXp64FXrmLxTec/A4A==",
+  "dgSpecHash": "dQq1QneDWKp+AvCwWzpe+RPE8iEmRI3k9Re0lCYS558CcIldlCVtr/HtRGpcF+5CX07Gj42cGCJae3P8RqbacA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\harsh\\OneDrive\\Desktop\\CAVU\\ParkingManagement\\ParkingManagement.UseCases\\ParkingManagement.UseCases.csproj",
+  "projectFilePath": "C:\\Users\\harsh\\OneDrive\\Desktop\\HarshaFinal\\ParkingManagement\\ParkingManagement.UseCases\\ParkingManagement.UseCases.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\harsh\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

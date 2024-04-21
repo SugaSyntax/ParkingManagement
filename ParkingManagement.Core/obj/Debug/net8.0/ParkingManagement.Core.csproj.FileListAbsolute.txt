@@ -10,3 +10,16 @@ C:\Users\harsh\OneDrive\Desktop\CAVU\ParkingManagement\ParkingManagement.Core\ob
 C:\Users\harsh\OneDrive\Desktop\CAVU\ParkingManagement\ParkingManagement.Core\obj\Debug\net8.0\refint\ParkingManagement.Core.dll
 C:\Users\harsh\OneDrive\Desktop\CAVU\ParkingManagement\ParkingManagement.Core\obj\Debug\net8.0\ParkingManagement.Core.pdb
 C:\Users\harsh\OneDrive\Desktop\CAVU\ParkingManagement\ParkingManagement.Core\obj\Debug\net8.0\ref\ParkingManagement.Core.dll
+C:\Users\harsh\OneDrive\Desktop\HarshaFinal\ParkingManagement\ParkingManagement.Core\bin\Debug\net8.0\ParkingManagement.Core.deps.json
+C:\Users\harsh\OneDrive\Desktop\HarshaFinal\ParkingManagement\ParkingManagement.Core\bin\Debug\net8.0\ParkingManagement.Core.dll
+C:\Users\harsh\OneDrive\Desktop\HarshaFinal\ParkingManagement\ParkingManagement.Core\bin\Debug\net8.0\ParkingManagement.Core.pdb
+C:\Users\harsh\OneDrive\Desktop\HarshaFinal\ParkingManagement\ParkingManagement.Core\obj\Debug\net8.0\ParkingManagement.Core.csproj.AssemblyReference.cache
+C:\Users\harsh\OneDrive\Desktop\HarshaFinal\ParkingManagement\ParkingManagement.Core\obj\Debug\net8.0\ParkingManagement.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harsh\OneDrive\Desktop\HarshaFinal\ParkingManagement\ParkingManagement.Core\obj\Debug\net8.0\ParkingManagement.Core.AssemblyInfoInputs.cache
+C:\Users\harsh\OneDrive\Desktop\HarshaFinal\ParkingManagement\ParkingManagement.Core\obj\Debug\net8.0\ParkingManagement.Core.AssemblyInfo.cs
+C:\Users\harsh\OneDrive\Desktop\HarshaFinal\ParkingManagement\ParkingManagement.Core\obj\Debug\net8.0\ParkingManagement.Core.csproj.CoreCompileInputs.cache
+C:\Users\harsh\OneDrive\Desktop\HarshaFinal\ParkingManagement\ParkingManagement.Core\obj\Debug\net8.0\ParkingManagement.Core.sourcelink.json
+C:\Users\harsh\OneDrive\Desktop\HarshaFinal\ParkingManagement\ParkingManagement.Core\obj\Debug\net8.0\ParkingManagement.Core.dll
+C:\Users\harsh\OneDrive\Desktop\HarshaFinal\ParkingManagement\ParkingManagement.Core\obj\Debug\net8.0\refint\ParkingManagement.Core.dll
+C:\Users\harsh\OneDrive\Desktop\HarshaFinal\ParkingManagement\ParkingManagement.Core\obj\Debug\net8.0\ParkingManagement.Core.pdb
+C:\Users\harsh\OneDrive\Desktop\HarshaFinal\ParkingManagement\ParkingManagement.Core\obj\Debug\net8.0\ref\ParkingManagement.Core.dll

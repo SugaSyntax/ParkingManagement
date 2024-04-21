@@ -115,11 +115,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\harsh\\OneDrive\\Desktop\\CAVU\\ParkingManagement\\ParkingManagement.Core\\ParkingManagement.Core.csproj",
+      "projectUniqueName": "C:\\Users\\harsh\\OneDrive\\Desktop\\HarshaFinal\\ParkingManagement\\ParkingManagement.Core\\ParkingManagement.Core.csproj",
       "projectName": "ParkingManagement.Core",
-      "projectPath": "C:\\Users\\harsh\\OneDrive\\Desktop\\CAVU\\ParkingManagement\\ParkingManagement.Core\\ParkingManagement.Core.csproj",
+      "projectPath": "C:\\Users\\harsh\\OneDrive\\Desktop\\HarshaFinal\\ParkingManagement\\ParkingManagement.Core\\ParkingManagement.Core.csproj",
       "packagesPath": "C:\\Users\\harsh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\harsh\\OneDrive\\Desktop\\CAVU\\ParkingManagement\\ParkingManagement.Core\\obj\\",
+      "outputPath": "C:\\Users\\harsh\\OneDrive\\Desktop\\HarshaFinal\\ParkingManagement\\ParkingManagement.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\harsh\\AppData\\Roaming\\NuGet\\NuGet.Config"
