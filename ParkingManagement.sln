@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingManagement.API", "ParkingManagement.API\ParkingManagement.API.csproj", "{1A6BC83A-E733-4DFD-B159-AEB15CBEEC5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingManagement.Core", "ParkingManagement.Core\ParkingManagement.Core.csproj", "{953468EE-9CF5-4BF4-9F04-B0A4988DD807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingManagement.Infrastructure", "ParkingManagement.Infrastructure\ParkingManagement.Infrastructure.csproj", "{FA50C762-043D-4176-AF5B-200E5956C470}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingManagement.UseCases", "ParkingManagement.UseCases\ParkingManagement.UseCases.csproj", "{48F6FE58-EC54-4BAB-8BDB-D119187C8DCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingManagement.Tests", "ParkingManagement.Tests\ParkingManagement.Tests.csproj", "{7F7FC83C-F05B-4EF0-A3CA-81C16528C9BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A6BC83A-E733-4DFD-B159-AEB15CBEEC5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A6BC83A-E733-4DFD-B159-AEB15CBEEC5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A6BC83A-E733-4DFD-B159-AEB15CBEEC5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A6BC83A-E733-4DFD-B159-AEB15CBEEC5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{953468EE-9CF5-4BF4-9F04-B0A4988DD807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{953468EE-9CF5-4BF4-9F04-B0A4988DD807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{953468EE-9CF5-4BF4-9F04-B0A4988DD807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{953468EE-9CF5-4BF4-9F04-B0A4988DD807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA50C762-043D-4176-AF5B-200E5956C470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA50C762-043D-4176-AF5B-200E5956C470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA50C762-043D-4176-AF5B-200E5956C470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA50C762-043D-4176-AF5B-200E5956C470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48F6FE58-EC54-4BAB-8BDB-D119187C8DCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48F6FE58-EC54-4BAB-8BDB-D119187C8DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48F6FE58-EC54-4BAB-8BDB-D119187C8DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48F6FE58-EC54-4BAB-8BDB-D119187C8DCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{563E2952-6EBF-4822-B219-DB08068EF449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{563E2952-6EBF-4822-B219-DB08068EF449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{563E2952-6EBF-4822-B219-DB08068EF449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{563E2952-6EBF-4822-B219-DB08068EF449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F7FC83C-F05B-4EF0-A3CA-81C16528C9BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F7FC83C-F05B-4EF0-A3CA-81C16528C9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F7FC83C-F05B-4EF0-A3CA-81C16528C9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F7FC83C-F05B-4EF0-A3CA-81C16528C9BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

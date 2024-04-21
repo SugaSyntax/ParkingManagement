@@ -1,0 +1,17 @@
+C:\Users\harsh\OneDrive\Desktop\CAVU\ParkingManagement\ParkingManagement.Infrastructure\bin\Debug\net8.0\ParkingManagement.Infrastructure.deps.json
+C:\Users\harsh\OneDrive\Desktop\CAVU\ParkingManagement\ParkingManagement.Infrastructure\bin\Debug\net8.0\ParkingManagement.Infrastructure.runtimeconfig.json
+C:\Users\harsh\OneDrive\Desktop\CAVU\ParkingManagement\ParkingManagement.Infrastructure\bin\Debug\net8.0\ParkingManagement.Infrastructure.dll
+C:\Users\harsh\OneDrive\Desktop\CAVU\ParkingManagement\ParkingManagement.Infrastructure\bin\Debug\net8.0\ParkingManagement.Infrastructure.pdb
+C:\Users\harsh\OneDrive\Desktop\CAVU\ParkingManagement\ParkingManagement.Infrastructure\bin\Debug\net8.0\ParkingManagement.Core.dll
+C:\Users\harsh\OneDrive\Desktop\CAVU\ParkingManagement\ParkingManagement.Infrastructure\bin\Debug\net8.0\ParkingManagement.Core.pdb
+C:\Users\harsh\OneDrive\Desktop\CAVU\ParkingManagement\ParkingManagement.Infrastructure\obj\Debug\net8.0\ParkingManagement.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\harsh\OneDrive\Desktop\CAVU\ParkingManagement\ParkingManagement.Infrastructure\obj\Debug\net8.0\ParkingManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harsh\OneDrive\Desktop\CAVU\ParkingManagement\ParkingManagement.Infrastructure\obj\Debug\net8.0\ParkingManagement.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\harsh\OneDrive\Desktop\CAVU\ParkingManagement\ParkingManagement.Infrastructure\obj\Debug\net8.0\ParkingManagement.Infrastructure.AssemblyInfo.cs
+C:\Users\harsh\OneDrive\Desktop\CAVU\ParkingManagement\ParkingManagement.Infrastructure\obj\Debug\net8.0\ParkingManagement.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\harsh\OneDrive\Desktop\CAVU\ParkingManagement\ParkingManagement.Infrastructure\obj\Debug\net8.0\ParkingM.C90B6057.Up2Date
+C:\Users\harsh\OneDrive\Desktop\CAVU\ParkingManagement\ParkingManagement.Infrastructure\obj\Debug\net8.0\ParkingManagement.Infrastructure.dll
+C:\Users\harsh\OneDrive\Desktop\CAVU\ParkingManagement\ParkingManagement.Infrastructure\obj\Debug\net8.0\refint\ParkingManagement.Infrastructure.dll
+C:\Users\harsh\OneDrive\Desktop\CAVU\ParkingManagement\ParkingManagement.Infrastructure\obj\Debug\net8.0\ParkingManagement.Infrastructure.pdb
+C:\Users\harsh\OneDrive\Desktop\CAVU\ParkingManagement\ParkingManagement.Infrastructure\obj\Debug\net8.0\ParkingManagement.Infrastructure.genruntimeconfig.cache
+C:\Users\harsh\OneDrive\Desktop\CAVU\ParkingManagement\ParkingManagement.Infrastructure\obj\Debug\net8.0\ref\ParkingManagement.Infrastructure.dll
