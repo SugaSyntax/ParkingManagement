@@ -18,70 +18,59 @@ namespace ParkingManagement.API.Middlewares
             }
             catch(FluentValidation.ValidationException ve)
             {
-                _logger.LogError(ve, ve.Message);
-
-                context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
-                ProblemDetails problem = new()
-                {
-                    Status = (int)HttpStatusCode.BadRequest,
-                    Type = "Invalid Data",
-                    Title = "Invalid Data",
-                    Detail = ve.Message
-                };
-                string json = JsonSerializer.Serialize(problem);
-                context.Response.ContentLength = json.Length;
-                await context.Response.WriteAsync(json);
-                context.Response.ContentType = "application/json";
+                bool isSuccess = false;
+                string message = "Invalid Data";
+                isSuccess = createResponse(ve,context,message);
             }
             catch(BadRequestException bre)
             {
-                 _logger.LogError(bre, bre.Message);
-                context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
-                ProblemDetails problem = new()
-                {
-                    Status = (int)HttpStatusCode.BadRequest,
-                    Type = "Bad Request",
-                    Title = "Bad Request",
-                    Detail = bre.Message
-                };
-                string json = JsonSerializer.Serialize(problem);
-                context.Response.ContentLength = json.Length;
-                await context.Response.WriteAsync(json);
-                context.Response.ContentType = "application/json";
+                bool isSuccess = false;
+                string message = "Bad Request";
+                isSuccess = createResponse(bre,context,message);
             }
             catch (NotFoundException nfe)
             {
-                _logger.LogError(nfe, nfe.Message);
-                context.Response.StatusCode = (int)HttpStatusCode.NotFound;
-                ProblemDetails problem = new()
-                {
-                    Status = (int)HttpStatusCode.NotFound,
-                    Type = "Not Found",
-                    Title = "Not Found",
-                    Detail = nfe.Message
-                };
-                string json = JsonSerializer.Serialize(problem);
-                context.Response.ContentLength = json.Length;
-                await context.Response.WriteAsync(json);
-                context.Response.ContentType = "application/json";
+                bool isSuccess = false;
+                string message = "Not Found";
+                isSuccess = createResponse(nfe,context,message);
             }
             catch (Exception e)
             {
-                _logger.LogError(e, e.Message);
-                context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
-                ProblemDetails problem = new()
-                {
-                    Status = (int)HttpStatusCode.InternalServerError,
-                    Type = "Error",
-                    Title = "Error",
-                    Detail = e.Message
-                };
-                string json = JsonSerializer.Serialize(problem);
-                context.Response.ContentLength = json.Length;
-                await context.Response.WriteAsync(json);
-                context.Response.ContentType = "application/json";
+                bool isSuccess = false;
+                string message = "Error";
+                isSuccess = createResponse(e,context,message);
             }
         }
-        //private void creat
+        private bool createResponse(Exception ex, HttpContext context, string messgae)
+        {
+            bool isComplete = false;
+            _logger.LogError(ex, ex.Message);
+            switch (ex)
+                {
+                    case FluentValidation.ValidationException:
+                    case BadRequestException:
+                        context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
+                        break;
+                    case NotFoundException:
+                        context.Response.StatusCode = (int)HttpStatusCode.NotFound;
+                        break;
+                    default:
+                        context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
+                        break;
+                }
+            ProblemDetails problem = new()
+                {
+                    Status = context.Response.StatusCode,
+                    Type = messgae,
+                    Title = messgae,
+                    Detail = ex.Message
+                };
+            string json = JsonSerializer.Serialize(problem);
+            context.Response.ContentLength = json.Length;
+            context.Response.WriteAsync(json).Wait();
+            context.Response.ContentType = "application/json";
+            isComplete = true;
+            return isComplete;
+        }
     }
 }

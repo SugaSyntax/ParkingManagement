@@ -32,7 +32,7 @@ namespace ParkingManagement.UseCases.Commands
             if(validationResult.IsValid == false)
             {
                 string errorMessage = string.Join(Environment.NewLine, validationResult.Errors.Select(error => error.ErrorMessage));
-                throw new Core.Exceptions.ValidationException(validationResult);
+                throw new FluentValidation.ValidationException(errorMessage);
             }
             var response = await _createRepository.CreateBooking(_mapper.Map<BookingRequest>(request.BookingDetails));
             return _mapper.Map<BookingResponseDTO>(response);

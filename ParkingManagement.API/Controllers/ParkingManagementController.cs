@@ -19,7 +19,7 @@ namespace ParkingManagement.API.Controllers
             _mediator = mediator;
         }
 
-        //GET: api/<ParkingManagementController> 
+        //GET: api/<ParkingManagement> 
         [HttpGet]
         public async Task<ActionResult<AvailableSpaces>> GetAvailableSpaces([FromQuery] DateTime startDate, [FromQuery] DateTime endDate)
         {
@@ -32,8 +32,8 @@ namespace ParkingManagement.API.Controllers
             return Ok(availableSpaces);
         }
 
-        // GET api/<ParkingManagementController>
-        [HttpGet("Prices")]
+        // GET api/<ParkingManagementController>/prices>
+        [HttpGet("prices")]
         public async Task<ActionResult<PriceDTO>> GetPrices([FromQuery] DateTime fromDate, [FromQuery] DateTime toDate)
         {
             DaterangeDTO daterangeDTO = new DaterangeDTO{
@@ -62,7 +62,7 @@ namespace ParkingManagement.API.Controllers
             return Ok(response);
         }
 
-        // PUT api/<LeaveRequestsController>/updateBooking/5
+        // PUT api/<ParkingManagementController>/updateBooking/5
         [HttpPut("updateBooking/{id}")]
         public async Task<ActionResult> UpdateBooking(int id, [FromBody] DaterangeDTO daterange)
         {

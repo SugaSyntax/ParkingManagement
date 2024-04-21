@@ -1,4 +1,5 @@
 using AutoMapper;
+using FluentValidation;
 using MediatR;
 using ParkingManagement.Core.Contracts;
 using ParkingManagement.Core.Entities;
@@ -25,7 +26,7 @@ namespace ParkingManagement.UseCases.Commands
             if(validationResult.IsValid == false)
             {
                 string errorMessage = string.Join(Environment.NewLine, validationResult.Errors.Select(error => error.ErrorMessage));
-                throw new Core.Exceptions.ValidationException(validationResult);
+                throw new ValidationException(errorMessage);
             }
             var result = await _updateRepository.UpdateBooking(request.BookingID,_mapper.Map<DateRange>(request.dateRange));
             return _mapper.Map<BookingResponseDTO>(result); 
